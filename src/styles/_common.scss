@@ -1,0 +1,30 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  ul { list-style: none; padding: 0; margin: 0; }
+  a { text-decoration: none; color: black;}
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+input, textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+button {
+  padding: 5px 10px;
+  min-width: 150px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

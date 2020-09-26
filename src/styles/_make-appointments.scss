@@ -1,0 +1,59 @@
+.make-appointments {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+  &-info {
+    width: 50%;
+    h1 { margin-bottom: 70px; }
+
+    &__date-picker--error {
+      color: red;
+      font-size: 12px;
+    }
+
+    &__title {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+
+      &--error {
+        color: red;
+        font-size: 12px;
+      }
+
+      &--error-border {
+        border: 1px solid red;
+      }
+    }
+
+    &__note {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    &__btns {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+    }
+  }
+
+  &-confirm {
+    width: 50%;
+    h1 { margin-bottom: 70px; }
+
+    &__static-info--date,
+    &__static-info--title,
+    &__static-info--note {
+      margin: 15px 0;
+    }
+
+    &__btns {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+    }
+  }
+}
